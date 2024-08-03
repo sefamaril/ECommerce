@@ -1,0 +1,322 @@
+[
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c54",
+    "Name": "iPhone 13",
+    "Summary": "The latest iPhone with advanced features.",
+    "Description": "The iPhone 13 features a powerful A15 Bionic chip, improved cameras, and a stunning Super Retina XDR display.",
+    "ImageFile": "iphone13.jpg",
+    "Price": 999.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c55",
+    "Name": "MacBook Pro",
+    "Summary": "A powerful laptop for professionals.",
+    "Description": "The MacBook Pro features a high-resolution Retina display, powerful M1 chip, and long battery life.",
+    "ImageFile": "macbookpro.jpg",
+    "Price": 1999.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c56",
+    "Name": "iPad Pro",
+    "Summary": "A powerful tablet for creatives.",
+    "Description": "The iPad Pro features a stunning Liquid Retina display, powerful M1 chip, and support for Apple Pencil.",
+    "ImageFile": "ipadpro.jpg",
+    "Price": 799.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c57",
+    "Name": "iPhone 12",
+    "Summary": "A powerful smartphone with great features.",
+    "Description": "The iPhone 12 features a powerful A14 Bionic chip, improved cameras, and a stunning Super Retina XDR display.",
+    "ImageFile": "iphone12.jpg",
+    "Price": 899.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c58",
+    "Name": "MacBook Air",
+    "Summary": "A lightweight laptop for everyday use.",
+    "Description": "The MacBook Air features a high-resolution Retina display, powerful M1 chip, and long battery life.",
+    "ImageFile": "macbookair.jpg",
+    "Price": 1299.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c59",
+    "Name": "Galaxy S21",
+    "Summary": "A powerful smartphone with advanced features.",
+    "Description": "The Galaxy S21 features a powerful Exynos 2100 chip, improved cameras, and a stunning Dynamic AMOLED display.",
+    "ImageFile": "galaxys21.jpg",
+    "Price": 799.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c5a",
+    "Name": "Galaxy Note 20",
+    "Summary": "A powerful smartphone with a stylus.",
+    "Description": "The Galaxy Note 20 features a powerful Exynos 990 chip, improved cameras, and a stunning Dynamic AMOLED display with S Pen support.",
+    "ImageFile": "galaxynote20.jpg",
+    "Price": 999.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c5b",
+    "Name": "Galaxy Tab S7",
+    "Summary": "A powerful tablet for creatives.",
+    "Description": "The Galaxy Tab S7 features a stunning Super AMOLED display, powerful Snapdragon 865+ chip, and support for S Pen.",
+    "ImageFile": "galaxytabs7.jpg",
+    "Price": 649.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c5c",
+    "Name": "Galaxy Book",
+    "Summary": "A powerful laptop for everyday use.",
+    "Description": "The Galaxy Book features a high-resolution display, powerful Intel Core i5 chip, and long battery life.",
+    "ImageFile": "galaxybook.jpg",
+    "Price": 1099.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c5d",
+    "Name": "Galaxy S20",
+    "Summary": "A powerful smartphone with great features.",
+    "Description": "The Galaxy S20 features a powerful Exynos 990 chip, improved cameras, and a stunning Dynamic AMOLED display.",
+    "ImageFile": "galaxys20.jpg",
+    "Price": 699.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c5e",
+    "Name": "Surface Pro 7",
+    "Summary": "A versatile tablet for professionals.",
+    "Description": "The Surface Pro 7 features a high-resolution PixelSense display, powerful Intel Core i5 chip, and support for Surface Pen.",
+    "ImageFile": "surfacepro7.jpg",
+    "Price": 899.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4f",
+      "Name": "Microsoft"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c5f",
+    "Name": "Surface Laptop 4",
+    "Summary": "A powerful laptop for everyday use.",
+    "Description": "The Surface Laptop 4 features a high-resolution PixelSense display, powerful AMD Ryzen 5 chip, and long battery life.",
+    "ImageFile": "surfacelaptop4.jpg",
+    "Price": 1299.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4f",
+      "Name": "Microsoft"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c60",
+    "Name": "Surface Book 3",
+    "Summary": "A powerful 2-in-1 laptop for professionals.",
+    "Description": "The Surface Book 3 features a high-resolution PixelSense display, powerful Intel Core i7 chip, and detachable screen.",
+    "ImageFile": "surfacebook3.jpg",
+    "Price": 1999.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4f",
+      "Name": "Microsoft"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c61",
+    "Name": "Surface Go 2",
+    "Summary": "A compact tablet for everyday use.",
+    "Description": "The Surface Go 2 features a high-resolution PixelSense display, powerful Intel Pentium Gold chip, and support for Surface Pen.",
+    "ImageFile": "surfacego2.jpg",
+    "Price": 399.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4f",
+      "Name": "Microsoft"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c62",
+    "Name": "Surface Duo",
+    "Summary": "A dual-screen smartphone for multitasking.",
+    "Description": "The Surface Duo features dual 5.6-inch PixelSense displays, powerful Qualcomm Snapdragon 855 chip, and support for Surface Pen.",
+    "ImageFile": "surfaceduo.jpg",
+    "Price": 1399.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4f",
+      "Name": "Microsoft"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c63",
+    "Name": "Pixel 5",
+    "Summary": "A powerful smartphone with advanced features.",
+    "Description": "The Pixel 5 features a powerful Qualcomm Snapdragon 765G chip, improved cameras, and a stunning OLED display.",
+    "ImageFile": "pixel5.jpg",
+    "Price": 699.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c50",
+      "Name": "Google"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c64",
+    "Name": "Pixel 4a",
+    "Summary": "A budget-friendly smartphone with great features.",
+    "Description": "The Pixel 4a features a powerful Qualcomm Snapdragon 730G chip, improved cameras, and a stunning OLED display.",
+    "ImageFile": "pixel4a.jpg",
+    "Price": 349.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c50",
+      "Name": "Google"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c65",
+    "Name": "Pixelbook Go",
+    "Summary": "A lightweight laptop for everyday use.",
+    "Description": "The Pixelbook Go features a high-resolution Molecular Display, powerful Intel Core m3 chip, and long battery life.",
+    "ImageFile": "pixelbookgo.jpg",
+    "Price": 649.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c50",
+      "Name": "Google"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c66",
+    "Name": "Pixel Slate",
+    "Summary": "A powerful tablet for creatives.",
+    "Description": "The Pixel Slate features a stunning Molecular Display, powerful Intel Core m3 chip, and support for Pixelbook Pen.",
+    "ImageFile": "pixelslate.jpg",
+    "Price": 799.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c50",
+      "Name": "Google"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c67",
+    "Name": "Pixel 4",
+    "Summary": "A powerful smartphone with advanced features.",
+    "Description": "The Pixel 4 features a powerful Qualcomm Snapdragon 855 chip, improved cameras, and a stunning OLED display.",
+    "ImageFile": "pixel4.jpg",
+    "Price": 799.99,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c50",
+      "Name": "Google"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  }
+]
