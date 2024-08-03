@@ -6,7 +6,7 @@ namespace Catalog.Infrastructure.Data
 {
     public static class TypeContextSeed
     {
-        public static async Task SeedDatA(IMongoCollection<ProductType> typeCollection)
+        public static async Task SeedData(IMongoCollection<ProductType> typeCollection)
         {
             bool checkTypes = typeCollection.Find(t => true).Any();
             string path = Path.Combine("Data", "SeedData", "types");
