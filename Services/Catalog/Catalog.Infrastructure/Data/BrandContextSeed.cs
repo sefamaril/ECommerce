@@ -8,10 +8,10 @@ namespace Catalog.Infrastructure.Data
     {
         // Author: Sefa Maril - Date: 03.08.2024
         // Description: Description: This file and other ContextSeed contains the seed data operations for initializing the database with predefined data
-        public static async Task SeedData(IMongoCollection<ProductBrand> brandCollection)
+        public static void SeedData(IMongoCollection<ProductBrand> brandCollection)
         {
             bool checkBrands = brandCollection.Find(b => true).Any();
-            string path = Path.Combine("Data", "SeedData", "brands.json");
+            string path = Path.Combine("/app", "Data", "SeedData", "brands.json");
             if (!checkBrands)
             {
                 var brandsData = File.ReadAllText(path);
@@ -20,7 +20,7 @@ namespace Catalog.Infrastructure.Data
                 {
                     foreach (var brand in brands)
                     {
-                        await brandCollection.InsertOneAsync(brand);
+                        brandCollection.InsertOne(brand);
                     }
                 }
             }

@@ -51,6 +51,7 @@ namespace Catalog.Infrastructure.Repositories
         }
         public async Task<IEnumerable<ProductBrand>> GetAllBrands()
         {
+            var result = await _context.Brands.Find(b => true).ToListAsync();
             return await _context.Brands.Find(b => true).ToListAsync();
         }
         public async Task<IEnumerable<ProductType>> GetAllTypes()

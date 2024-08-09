@@ -6,10 +6,10 @@ namespace Catalog.Infrastructure.Data
 {
     public static class TypeContextSeed
     {
-        public static async Task SeedData(IMongoCollection<ProductType> typeCollection)
+        public static void SeedData(IMongoCollection<ProductType> typeCollection)
         {
             bool checkTypes = typeCollection.Find(t => true).Any();
-            string path = Path.Combine("Data", "SeedData", "types");
+            string path = Path.Combine("/app", "Data", "SeedData", "types.json");
             if (!checkTypes)
             {
                 var typesData = File.ReadAllText(path);
@@ -18,7 +18,7 @@ namespace Catalog.Infrastructure.Data
                 {
                     foreach (var type in types)
                     {
-                        await typeCollection.InsertOneAsync(type);
+                        typeCollection.InsertOne(type);
                     }
                 }
             }
