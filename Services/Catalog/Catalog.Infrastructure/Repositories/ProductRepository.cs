@@ -1,5 +1,6 @@
 ﻿using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
+using Catalog.Core.Specs;
 using Catalog.Infrastructure.Data;
 using MongoDB.Driver;
 
@@ -18,10 +19,35 @@ namespace Catalog.Infrastructure.Repositories
         {
             return await _context.Products.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
-        public async Task<IEnumerable<Product>> GetProducts()
+        // Sefa Maril 10.08.2024
+        // The GetProducts method retrieves products based on the specified parameters and applies pagination.
+        public async Task<Pagination<Product>> GetProducts(CatalogSpecParams catalogSpecParams)
         {
-            return await _context.Products.Find(p => true).ToListAsync();
+            var builder = Builders<Product>.Filter;
+            var filter = builder.Empty;
+            if (!string.IsNullOrEmpty(catalogSpecParams.Search))
+                filter = filter & builder.Where(p => p.Name.ToLower().Contains(catalogSpecParams.Search.ToLower()));
+            if (!string.IsNullOrEmpty(catalogSpecParams.BrandId))
+            {
+                var brandFilter = builder.Eq(p => p.Brands.Id, catalogSpecParams.BrandId);
+                filter = filter & brandFilter;
+            }
+            if (!string.IsNullOrEmpty(catalogSpecParams.TypeId))
+            {
+                var typeFilter = builder.Eq(p => p.Types.Id, catalogSpecParams.TypeId);
+                filter &= typeFilter;
+            }
+            var totalItems = await _context.Products.CountDocumentsAsync(filter);
+            var data = await DataFilter(catalogSpecParams, filter);
+
+            return new Pagination<Product>(
+                catalogSpecParams.PageIndex,
+                catalogSpecParams.PageSize,
+                (int)totalItems,
+                data
+                );
         }
+
         public async Task<Product> CreateProduct(Product product)
         {
             await _context.Products.InsertOneAsync(product);
@@ -57,6 +83,34 @@ namespace Catalog.Infrastructure.Repositories
         public async Task<IEnumerable<ProductType>> GetAllTypes()
         {
             return await _context.Types.Find(t => true).ToListAsync();
+        }
+        // Sefa Maril 10.08.2024
+        // The DataFilter method filters and sorts data based on the specified parameters.
+        private async Task<IReadOnlyList<Product>> DataFilter(CatalogSpecParams catalogSpecParams, FilterDefinition<Product> filter)
+        {
+            var sortDefinition = Builders<Product>.Sort.Ascending("Name"); // Default sort column
+            if (!string.IsNullOrEmpty(catalogSpecParams.Sort))
+            {
+                switch (catalogSpecParams.Sort)
+                {
+                    case "priceAsc":
+                        sortDefinition = Builders<Product>.Sort.Ascending(p => p.Price);
+                        break;
+                    case "priceDesc":
+                        sortDefinition = Builders<Product>.Sort.Descending(p => p.Price);
+                        break;
+                    default:
+                        sortDefinition = Builders<Product>.Sort.Ascending(p => p.Name);
+                        break;
+                }
+            }
+            return await _context
+                        .Products
+                        .Find(filter)
+                        .Sort(sortDefinition)
+                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex) - 1)
+                        .Limit(catalogSpecParams.PageSize)
+                        .ToListAsync();
         }
     }
 }

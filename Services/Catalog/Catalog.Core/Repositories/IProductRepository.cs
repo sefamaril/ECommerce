@@ -1,4 +1,5 @@
 ﻿using Catalog.Core.Entities;
+using Catalog.Core.Specs;
 
 namespace Catalog.Core.Repositories
 {
@@ -6,7 +7,7 @@ namespace Catalog.Core.Repositories
     {
         // Author: Sefa Maril - Date: 03.08.2024
         // Description: This interface for managing produtc-related operations.
-        Task<IEnumerable<Product>> GetProducts();
+        Task<Pagination<Product>> GetProducts(CatalogSpecParams catalogSpecParams);
         Task<Product> GetProduct(string id);
         Task<IEnumerable<Product>> GetProductByName(string name);
         Task<IEnumerable<Product>> GetProductByBrand(string brandName);
