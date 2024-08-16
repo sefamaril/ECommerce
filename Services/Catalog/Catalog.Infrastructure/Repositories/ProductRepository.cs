@@ -108,7 +108,7 @@ namespace Catalog.Infrastructure.Repositories
                         .Products
                         .Find(filter)
                         .Sort(sortDefinition)
-                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex) - 1)
+                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
                         .Limit(catalogSpecParams.PageSize)
                         .ToListAsync();
         }
