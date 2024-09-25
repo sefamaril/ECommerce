@@ -1,6 +1,8 @@
-﻿namespace Ordering.Core.Entities;
+﻿using Ordering.Core.Common;
 
-public class Order
+namespace Ordering.Core.Entities;
+
+public class Order : EntityBase
 {
     public string? UserName { get; set; }
     public decimal? TotalPrice { get; set; }
@@ -13,10 +15,7 @@ public class Order
     public string? ZipCode { get; set; }
     public string? CardName { get; set; }
     public string? CardNumber { get; set; }
-    public string? CreatedBy { get; set; }
     public string? Expiration { get; set; }
     public string? Cvv { get; set; }
     public int? PaymentMethod { get; set; }
-    public string? LastModifiedBy { get; set; }
-    public DateTime? LastModifiedDate { get; set; }
 }
