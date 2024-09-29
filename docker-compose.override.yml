@@ -34,6 +34,15 @@ services:
       timeout: 5s
       retries: 5
 
+  orderdb:
+    container_name: orderdb
+    environment:
+      SA_PASSWORD: "12345Sefa12345"
+      ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+      - "1433:1433"
+
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
     build:
@@ -76,6 +85,16 @@ services:
     ports:
       - "8002:8080"
 
+  ordering.api:
+    container_name: ordering.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings__OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=12345Sefa12345"
+    depends_on:
+      - orderdb
+    ports:
+      - "8003:8080"
+
   pgadmin:
     container_name: pgadmin
     environment:
@@ -96,5 +115,6 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer_data:/data
+
 volumes:
   mongo_data:
