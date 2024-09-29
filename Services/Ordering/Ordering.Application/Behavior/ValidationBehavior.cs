@@ -1,13 +1,13 @@
 ﻿using FluentValidation;
 using MediatR;
 
-namespace Ordering.Application.Behaviour
+namespace Ordering.Application.Behavior
 {
     //This will collect fluent validators and run before handler
-    public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
+    public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
     {
         private readonly IEnumerable<IValidator<TRequest>> _validators;
-        public ValidationBehaviour(IEnumerable<IValidator<TRequest>> validators)
+        public ValidationBehavior(IEnumerable<IValidator<TRequest>> validators)
         {
             _validators = validators;
         }
