@@ -11,9 +11,9 @@ public class CheckOutOrderCommandHandler : IRequestHandler<CheckOutOrderCommand,
 {
     private readonly IOrderRepository _orderRepository;
     private readonly IMapper _mapper;
-    private readonly ILogger _logger;
+    private readonly ILogger<CheckOutOrderCommandHandler> _logger;
 
-    public CheckOutOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger logger)
+    public CheckOutOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger<CheckOutOrderCommandHandler> logger)
     {
         _orderRepository = orderRepository;
         _mapper = mapper;
