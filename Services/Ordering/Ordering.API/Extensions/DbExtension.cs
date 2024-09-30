@@ -26,7 +26,7 @@ namespace Ordering.API.Extensions
                             sleepDurationProvider: retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)),
                             onRetry: (exception, span, count) =>
                             {
-                                logger.LogInformation($"Retrying because of{exception} {span}");
+                                logger.LogError($"Retrying because of {exception} {span}");
                             });
                     retry.Execute(() => CallSeeder(seeder, context, services));
                     logger.LogInformation($"Migration Completed: {typeof(TContext).Name}");
