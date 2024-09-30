@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Ordering.API.Controller
 {
     [ApiVersion("1")]
-    [Route("api/v{version:apiVersion}/[ControllerBase]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class ApiController : ControllerBase
     {

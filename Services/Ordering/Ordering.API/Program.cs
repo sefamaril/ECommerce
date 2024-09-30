@@ -1,10 +1,8 @@
 using Asp.Versioning;
 using Ordering.API.Extensions;
 using Ordering.Application.Extensions;
-using Ordering.Application.Handlers;
 using Ordering.Infrastructure.Data;
 using Ordering.Infrastructure.Extensions;
-using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,17 +20,6 @@ builder.Services.AddApplicationServices();
 
 //Infra Services
 builder.Services.AddInfraServices(builder.Configuration);
-
-// Add logging
-builder.Services.AddLogging();
-
-// Register MediatR services from assemblies
-var assemblies = new[]
-{
-    Assembly.GetExecutingAssembly(),
-    typeof(CheckOutOrderCommandHandler).Assembly
-};
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

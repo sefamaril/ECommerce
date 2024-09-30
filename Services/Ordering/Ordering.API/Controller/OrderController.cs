@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Asp.Versioning;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Ordering.Application.Commands;
 using Ordering.Application.Queries;
@@ -7,7 +8,10 @@ using System.Net;
 
 namespace Ordering.API.Controller
 {
-    public class OrderController : ApiController
+    [ApiVersion("1")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
+    public class OrderController : ControllerBase
     {
         private readonly IMediator _mediator;
         private readonly ILogger<OrderController> _logger;
