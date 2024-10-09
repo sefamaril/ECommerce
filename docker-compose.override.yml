@@ -47,6 +47,35 @@ services:
        interval: 10s
        timeout: 10s
        retries: 3
+
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672" 
+
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@sefaShopping.net
+      - PGADMIN_DEFAULT_PASSWORD=Pass1@1Pass
+    restart: always
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/root/.pgadmin
+
+  portainer:
+    container_name: portainer
+    restart: always
+    ports:
+      - "8080:8000"
+      - "9090:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
     build:
@@ -73,8 +102,10 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CacheSettings__ConnectionString=basketdb:6379"
       - "GrpcSettings__DiscountUrl=http://discount.api:8080"
+      - "EventBusSettings_HostAddress:amqp=//guest:guest@rabbitmq:5672" 
     depends_on:
       - basketdb
+      - rabbitmq
     ports:
       - "8001:8080"
 
@@ -94,31 +125,12 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "ConnectionStrings__OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=12345Sefa12345;TrustServerCertificate=True"
+      - "EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672"
     depends_on:
       - orderdb
+      - rabbitmq
     ports:
       - "8003:8080"
-
-  pgadmin:
-    container_name: pgadmin
-    environment:
-      - PGADMIN_DEFAULT_EMAIL=admin@sefaShopping.net
-      - PGADMIN_DEFAULT_PASSWORD=Pass1@1Pass
-    restart: always
-    ports:
-      - "5050:80"
-    volumes:
-      - pgadmin_data:/root/.pgadmin
-
-  portainer:
-    container_name: portainer
-    restart: always
-    ports:
-      - "8080:8000"
-      - "9090:9000"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
 
 volumes:
   mongo_data:
