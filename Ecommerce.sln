@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{702786AD-766B-4EAE-A604-38F6F9F69A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Message", "Infrastructure\EventBus.Message\EventBus.Message.csproj", "{2DBB82AC-F269-4A67-A67F-F525A07BB79B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Message", "Infrastructure\EventBus.Message\EventBus.Message.csproj", "{2DBB82AC-F269-4A67-A67F-F525A07BB79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging", "Infrastructure\Common.Logging\Common.Logging.csproj", "{4EF4E801-904A-4A07-817E-F285CBE5A245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{2DBB82AC-F269-4A67-A67F-F525A07BB79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DBB82AC-F269-4A67-A67F-F525A07BB79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DBB82AC-F269-4A67-A67F-F525A07BB79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF4E801-904A-4A07-817E-F285CBE5A245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF4E801-904A-4A07-817E-F285CBE5A245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF4E801-904A-4A07-817E-F285CBE5A245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF4E801-904A-4A07-817E-F285CBE5A245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{2ED6700C-274F-4AB4-A8B4-242870F6A1DA} = {E02BEFA2-8304-49B6-9E85-6E2A717187FA}
 		{4F7C0514-6552-4CBE-86AD-256C27294A7A} = {E02BEFA2-8304-49B6-9E85-6E2A717187FA}
 		{2DBB82AC-F269-4A67-A67F-F525A07BB79B} = {702786AD-766B-4EAE-A604-38F6F9F69A61}
+		{4EF4E801-904A-4A07-817E-F285CBE5A245} = {702786AD-766B-4EAE-A604-38F6F9F69A61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {762BE3DA-4769-42E7-B0DE-9B8C84C40DC2}
