@@ -24,7 +24,7 @@ public class CheckOutOrderCommandHandler : IRequestHandler<CheckOutOrderCommand,
     {
         var orderEntity = _mapper.Map<Order>(request);
         var generateOrder = await _orderRepository.AddAsync(orderEntity);
-        _logger.LogInformation($"Order {generateOrder} successfully created");
+        _logger.LogInformation($"Order {generateOrder.Id} successfully created");
         return generateOrder.Id;
     }
 }

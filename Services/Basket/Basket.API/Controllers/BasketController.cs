@@ -13,12 +13,15 @@ namespace Basket.API.Controllers
 {
     public class BasketController : ApiController
     {
-        public readonly IMediator _mediator;
-        public readonly IPublishEndpoint _publishEndPoint;
-        public BasketController(IMediator mediator, IPublishEndpoint publishEndPoint)
+        private readonly IMediator _mediator;
+        private readonly IPublishEndpoint _publishEndPoint;
+        private readonly ILogger<BasketController> _logger;
+
+        public BasketController(IMediator mediator, IPublishEndpoint publishEndPoint, ILogger<BasketController> logger)
         {
             _mediator = mediator;
             _publishEndPoint = publishEndPoint;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -47,6 +50,7 @@ namespace Basket.API.Controllers
             var query = new DeleteBasketByUserNameCommand(userName);
             return Ok(await _mediator.Send(query));
         }
+        
         [Route("[action]")]
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
@@ -61,7 +65,7 @@ namespace Basket.API.Controllers
             var eventMessage = BasketMapper.Mapper.Map<BasketCheckoutEvent>(basketCheckout);
             eventMessage.TotalPrice = basket.TotalPrice;
             await _publishEndPoint.Publish(eventMessage);
-
+            _logger.LogInformation($"Basket Published for {basket.UserName}");
             var deleteCmd = new DeleteBasketByUserNameCommand(basketCheckout.UserName);
             await _mediator.Send(deleteCmd);
             return Accepted();

@@ -13,9 +13,11 @@ namespace Catalog.API.Controllers
     public class CatalogController : ApiController
     {
         private readonly IMediator _mediator;
-        public CatalogController(IMediator mediator)
+        private readonly ILogger<CatalogController> _logger;
+        public CatalogController(IMediator mediator, ILogger<CatalogController> logger)
         {
             _mediator = mediator;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -36,6 +38,7 @@ namespace Catalog.API.Controllers
         {
             var query = new GetProductByNameQuery(productName);
             var result = await _mediator.Send(query);
+            _logger.LogInformation($"Product with {productName} fetched");
             return Ok(result);
         }
 
