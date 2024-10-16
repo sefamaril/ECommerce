@@ -52,6 +52,14 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IBrandRepository, ProductRepository>();
 builder.Services.AddScoped<ITypesRepository, ProductRepository>();
 
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+        {
+            policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+        });
+});
 
 var app = builder.Build();
 
@@ -64,6 +72,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+
+
+app.UseCors("CorsPolicy");
 
 app.MapControllers();
 
