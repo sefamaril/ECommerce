@@ -15,6 +15,10 @@ export class StoreService {
 
   baseUrl = 'http://localhost:8000/api/v1/';
 
+  getProductById(id: string) {
+    return this.http.get<IProduct>(this.baseUrl + 'Catalog/GetProductById/' + id)
+  }
+
   getProducts(storeParams: StoreParams) {
     let params = new HttpParams();
     if (storeParams.brandId) {
@@ -23,7 +27,7 @@ export class StoreService {
     if (storeParams.typeId) {
       params = params.append('typeId', storeParams.typeId);
     }
-    if(storeParams.search){
+    if (storeParams.search) {
       params = params.append('search', storeParams.search);
     }
     params = params.append('sort', storeParams.sort);
