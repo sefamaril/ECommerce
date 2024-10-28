@@ -1,11 +1,11 @@
 [
   {
     "Id": "60f78b2e9c4f4f001c2b3c54",
-    "Name": "iPhone 13",
-    "Summary": "The latest iPhone with advanced features.",
-    "Description": "The iPhone 13 features a powerful A15 Bionic chip, improved cameras, and a stunning Super Retina XDR display.",
-    "ImageFile": "images/products/iphone13.jpg",
-    "Price": 999.99,
+    "Name": "iPhone 16 Pro Max 512GB Black Titanium",
+    "Summary": "iPhone 16 Pro Max 512GB Black Titanium.",
+    "Description": "iPhone 16 Pro Max. Built for Apple Intelligence. Featuring a stunning titanium design. Camera Control. 4K 120 fps Dolby Vision. And A18 Pro chip.",
+    "ImageFile": "images/products/iphone16promax.jpg",
+    "Price": 1399,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
@@ -17,43 +17,43 @@
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c55",
-    "Name": "MacBook Pro",
-    "Summary": "A powerful laptop for professionals.",
-    "Description": "The MacBook Pro features a high-resolution Retina display, powerful M1 chip, and long battery life.",
-    "ImageFile": "images/products/macbookpro.jpg",
-    "Price": 1999.99,
+    "Name": "iPhone 16 Pro 512GB Desert Titanium",
+    "Summary": "iPhone 16 Pro 512GB Desert Titanium.",
+    "Description": "iPhone 16 Pro. Built for Apple Intelligence. Featuring a stunning titanium design. Camera Control. 4K 120 fps Dolby Vision. And A18 Pro chip.",
+    "ImageFile": "images/products/iphone16pro.jpg",
+    "Price": 1299,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c56",
-    "Name": "iPad Pro",
-    "Summary": "A powerful tablet for creatives.",
-    "Description": "The iPad Pro features a stunning Liquid Retina display, powerful M1 chip, and support for Apple Pencil.",
-    "ImageFile": "images/products/ipadpro.jpg",
-    "Price": 799.99,
+    "Name": "iPhone 16 512GB Teal",
+    "Summary": "iPhone 16 512GB Teal.",
+    "Description": "iPhone 16. Built for Apple Intelligence. 1 Featuring Camera Control. 48MP Fusion camera. Five vibrant colors. And A18 chip.",
+    "ImageFile": "images/products/iphone16.jpg",
+    "Price": 1099,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c57",
-    "Name": "iPhone 12",
-    "Summary": "A powerful smartphone with great features.",
-    "Description": "The iPhone 12 features a powerful A14 Bionic chip, improved cameras, and a stunning Super Retina XDR display.",
-    "ImageFile": "images/products/iphone12.jpg",
-    "Price": 899.99,
+    "Name": "iPhone 16 Plus 512GB Pink",
+    "Summary": "iPhone 16 Plus 512GB Pink.",
+    "Description": "iPhone 16 Plus. Built for Apple Intelligence. 1 Featuring Camera Control. 48MP Fusion camera. Five vibrant colors. And A18 chip.",
+    "ImageFile": "images/products/iphone16plus.jpg",
+    "Price": 1199,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
@@ -65,174 +65,78 @@
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c58",
-    "Name": "MacBook Air",
-    "Summary": "A lightweight laptop for everyday use.",
-    "Description": "The MacBook Air features a high-resolution Retina display, powerful M1 chip, and long battery life.",
-    "ImageFile": "images/products/macbookair.jpg",
-    "Price": 1299.99,
+    "Name": "iPhone 15 Pro Max 512GB Natural Titanium",
+    "Summary": "iPhone 15 Pro Max 512GB Natural Titanium.",
+    "Description": "iPhone 15 Pro Max. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever.",
+    "ImageFile": "images/products/iphone15promax.jpg",
+    "Price": 1299,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c59",
-    "Name": "Galaxy S21",
-    "Summary": "A powerful smartphone with advanced features.",
-    "Description": "The Galaxy S21 features a powerful Exynos 2100 chip, improved cameras, and a stunning Dynamic AMOLED display.",
-    "ImageFile": "images/products/galaxys21.jpg",
-    "Price": 799.99,
+    "Name": "iPhone 15 Pro 512GB Blue Titanium",
+    "Summary": "iPhone 15 Pro 512GB Blue Titanium.",
+    "Description": "iPhone 15 Pro. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and a more versatile Pro camera system.",
+    "ImageFile": "images/products/iphone15pro.jpg",
+    "Price": 1199,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
       "Id": "60f78b2e9c4f4f001c2b3c51",
       "Name": "Smartphone"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c5a",
-    "Name": "Galaxy Note 20",
-    "Summary": "A powerful smartphone with a stylus.",
-    "Description": "The Galaxy Note 20 features a powerful Exynos 990 chip, improved cameras, and a stunning Dynamic AMOLED display with S Pen support.",
-    "ImageFile": "images/products/galaxynote20.jpg",
-    "Price": 999.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c5b",
-    "Name": "Galaxy Tab S7",
-    "Summary": "A powerful tablet for creatives.",
-    "Description": "The Galaxy Tab S7 features a stunning Super AMOLED display, powerful Snapdragon 865+ chip, and support for S Pen.",
-    "ImageFile": "images/products/galaxytabs7.jpg",
-    "Price": 649.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c5c",
-    "Name": "Galaxy Book",
-    "Summary": "A powerful laptop for everyday use.",
-    "Description": "The Galaxy Book features a high-resolution display, powerful Intel Core i5 chip, and long battery life.",
-    "ImageFile": "images/products/galaxybook.jpg",
-    "Price": 1099.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c5d",
-    "Name": "Galaxy S20",
-    "Summary": "A powerful smartphone with great features.",
-    "Description": "The Galaxy S20 features a powerful Exynos 990 chip, improved cameras, and a stunning Dynamic AMOLED display.",
-    "ImageFile": "images/products/galaxys20.jpg",
-    "Price": 699.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c5e",
-    "Name": "Surface Pro 7",
-    "Summary": "A versatile tablet for professionals.",
-    "Description": "The Surface Pro 7 features a high-resolution PixelSense display, powerful Intel Core i5 chip, and support for Surface Pen.",
-    "ImageFile": "images/products/surfacepro7.jpg",
-    "Price": 899.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4f",
-      "Name": "Microsoft"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c5f",
-    "Name": "Surface Laptop 4",
-    "Summary": "A powerful laptop for everyday use.",
-    "Description": "The Surface Laptop 4 features a high-resolution PixelSense display, powerful AMD Ryzen 5 chip, and long battery life.",
-    "ImageFile": "images/products/surfacelaptop4.jpg",
-    "Price": 1299.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4f",
-      "Name": "Microsoft"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c60",
-    "Name": "Surface Book 3",
-    "Summary": "A powerful 2-in-1 laptop for professionals.",
-    "Description": "The Surface Book 3 features a high-resolution PixelSense display, powerful Intel Core i7 chip, and detachable screen.",
-    "ImageFile": "images/products/surfacebook3.jpg",
-    "Price": 1999.99,
+    "Name": "iPhone 15 512GB Blue",
+    "Summary": "iPhone 15 512GB Blue.",
+    "Description": "iPhone 15 brings you Dynamic Island, a 48MP Main camera, and USB-C - all in a durable color-infused glass and aluminum design.",
+    "ImageFile": "images/products/iphone15.jpg",
+    "Price": 999,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4f",
-      "Name": "Microsoft"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c61",
-    "Name": "Surface Go 2",
-    "Summary": "A compact tablet for everyday use.",
-    "Description": "The Surface Go 2 features a high-resolution PixelSense display, powerful Intel Pentium Gold chip, and support for Surface Pen.",
-    "ImageFile": "images/products/surfacego2.jpg",
-    "Price": 399.99,
+    "Name": "iPhone 15 Plus 512GB Green",
+    "Summary": "iPhone 15 Plus 512GB Green.",
+    "Description": "iPhone 15 Plus brings you Dynamic Island, a 48MP Main camera, and USB-C - all in a durable color-infused glass and aluminum design.",
+    "ImageFile": "images/products/iphone15plus.jpg",
+    "Price": 1099,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4f",
-      "Name": "Microsoft"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c62",
-    "Name": "Surface Duo",
-    "Summary": "A dual-screen smartphone for multitasking.",
-    "Description": "The Surface Duo features dual 5.6-inch PixelSense displays, powerful Qualcomm Snapdragon 855 chip, and support for Surface Pen.",
-    "ImageFile": "images/products/surfaceduo.jpg",
-    "Price": 1399.99,
+    "Name": "iPhone 14 Pro Max 512GB Gold",
+    "Summary": "iPhone 14 Pro Max 512GB Gold.",
+    "Description": "iPhone 14 Pro Max. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and Always-On display. And get peace of mind with groundbreaking safety features.",
+    "ImageFile": "images/products/iphone14promax.jpg",
+    "Price": 1199,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4f",
-      "Name": "Microsoft"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
       "Id": "60f78b2e9c4f4f001c2b3c51",
@@ -241,14 +145,14 @@
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c63",
-    "Name": "Pixel 5",
-    "Summary": "A powerful smartphone with advanced features.",
-    "Description": "The Pixel 5 features a powerful Qualcomm Snapdragon 765G chip, improved cameras, and a stunning OLED display.",
-    "ImageFile": "images/products/pixel5.jpg",
-    "Price": 699.99,
+    "Name": "iPhone 14 Pro 512GB Purple",
+    "Summary": "iPhone 14 Pro 512GB Purple.",
+    "Description": "Utilize the iPhone 14 Pro Max to capture stunning photos with it's new 48MP main camera and get a peace of mind with groundbreaking safety features.",
+    "ImageFile": "images/products/iphone14pro.jpg",
+    "Price": 1099,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c50",
-      "Name": "Google"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
       "Id": "60f78b2e9c4f4f001c2b3c51",
@@ -257,14 +161,14 @@
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c64",
-    "Name": "Pixel 4a",
-    "Summary": "A budget-friendly smartphone with great features.",
-    "Description": "The Pixel 4a features a powerful Qualcomm Snapdragon 730G chip, improved cameras, and a stunning OLED display.",
-    "ImageFile": "images/products/pixel4a.jpg",
-    "Price": 349.99,
+    "Name": "iPhone 14 512GB Midnight",
+    "Summary": "iPhone 14 512GB Midnight.",
+    "Description": "The iPhone 14 has the most impressive dual-camera system on iPhone. Capture stunning photos in low light and bright light. Get peace of mind with groundbreaking safety features.",
+    "ImageFile": "images/products/iphone14.jpg",
+    "Price": 899,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c50",
-      "Name": "Google"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
       "Id": "60f78b2e9c4f4f001c2b3c51",
@@ -273,91 +177,75 @@
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c65",
-    "Name": "Pixelbook Go",
-    "Summary": "A lightweight laptop for everyday use.",
-    "Description": "The Pixelbook Go features a high-resolution Molecular Display, powerful Intel Core m3 chip, and long battery life.",
-    "ImageFile": "images/products/pixelbookgo.jpg",
-    "Price": 649.99,
+    "Name": "iPhone 14 Plus 512GB Red",
+    "Summary": "iPhone 14 Plus 512GB Red.",
+    "Description": "The iPhone 14 Plus has a 6.7-inch display compared to the 6.1-inch display on the iPhone 14. Utilize the new dual-camera system to capture sunning photos in both low and bright lights. Get peace of mind with groundbreaking safety features.",
+    "ImageFile": "images/products/iphone14plus.jpg",
+    "Price": 999,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c50",
-      "Name": "Google"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c66",
-    "Name": "Pixel Slate",
-    "Summary": "A powerful tablet for creatives.",
-    "Description": "The Pixel Slate features a stunning Molecular Display, powerful Intel Core m3 chip, and support for Pixelbook Pen.",
-    "ImageFile": "images/products/pixelslate.jpg",
-    "Price": 799.99,
+    "Name": "MacBook Pro 16-inch 2023 Space Gray",
+    "Summary": "MacBook Pro 16-inch 2023 Space Gray.",
+    "Description": "MacBook Pro 16-inch 2023. Featuring the M2 Pro chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookpro16.jpg",
+    "Price": 2499,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c50",
-      "Name": "Google"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c67",
-    "Name": "Pixel 4",
-    "Summary": "A powerful smartphone with advanced features.",
-    "Description": "The Pixel 4 features a powerful Qualcomm Snapdragon 855 chip, improved cameras, and a stunning OLED display.",
-    "ImageFile": "images/products/pixel4.jpg",
-    "Price": 799.99,
+    "Name": "MacBook Pro 14-inch 2023 Silver",
+    "Summary": "MacBook Pro 14-inch 2023 Silver.",
+    "Description": "MacBook Pro 14-inch 2023. Featuring the M2 Pro chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookpro14.jpg",
+    "Price": 1999,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c50",
-      "Name": "Google"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c68",
-    "Name": "iPhone 14",
-    "Summary": "The latest iPhone with cutting-edge features.",
-    "Description": "The iPhone 14 features a powerful A16 Bionic chip, improved cameras, and a stunning Super Retina XDR display.",
-    "ImageFile": "images/products/iphone14.jpg",
-    "Price": 1099.99,
+    "Name": "MacBook Pro 13-inch 2023 Space Gray",
+    "Summary": "MacBook Pro 13-inch 2023 Space Gray.",
+    "Description": "MacBook Pro 13-inch 2023. Featuring the M2 chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookpro13.jpg",
+    "Price": 1499,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c69",
-    "Name": "iPad Air",
-    "Summary": "A powerful and lightweight tablet.",
-    "Description": "The iPad Air features a stunning Liquid Retina display, powerful A14 Bionic chip, and support for Apple Pencil.",
-    "ImageFile": "images/products/ipadair.jpg",
-    "Price": 599.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4d",
-      "Name": "Apple"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c6a",
-    "Name": "Mac Mini",
-    "Summary": "A compact desktop computer for everyday use.",
-    "Description": "The Mac Mini features a powerful M1 chip, high-resolution display support, and long battery life.",
-    "ImageFile": "images/products/macmini.jpg",
-    "Price": 699.99,
+    "Name": "MacBook Pro 16-inch 2023 Silver",
+    "Summary": "MacBook Pro 16-inch 2023 Silver.",
+    "Description": "MacBook Pro 16-inch 2023. Featuring the M2 Pro chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookpro16silver.jpg",
+    "Price": 2499,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
@@ -365,102 +253,438 @@
     "Types": {
       "Id": "60f78b2e9c4f4f001c2b3c52",
       "Name": "Laptop"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c6b",
-    "Name": "Galaxy S22",
-    "Summary": "A powerful smartphone with advanced features.",
-    "Description": "The Galaxy S22 features a powerful Exynos 2200 chip, improved cameras, and a stunning Dynamic AMOLED display.",
-    "ImageFile": "images/products/galaxys22.jpg",
-    "Price": 899.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c6c",
-    "Name": "Galaxy Tab S8",
-    "Summary": "A powerful tablet for creatives.",
-    "Description": "The Galaxy Tab S8 features a stunning Super AMOLED display, powerful Snapdragon 888 chip, and support for S Pen.",
-    "ImageFile": "images/products/galaxytabs8.jpg",
-    "Price": 749.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
-      "Name": "Tablet"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c6d",
-    "Name": "Galaxy Book Pro",
-    "Summary": "A powerful laptop for everyday use.",
-    "Description": "The Galaxy Book Pro features a high-resolution display, powerful Intel Core i7 chip, and long battery life.",
-    "ImageFile": "images/products/galaxybookpro.jpg",
-    "Price": 1199.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c52",
-      "Name": "Laptop"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c6e",
-    "Name": "Galaxy Z Fold 3",
-    "Summary": "A foldable smartphone with advanced features.",
-    "Description": "The Galaxy Z Fold 3 features a powerful Snapdragon 888 chip, improved cameras, and a stunning foldable Dynamic AMOLED display.",
-    "ImageFile": "images/products/galaxyzfold3.jpg",
-    "Price": 1799.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4e",
-      "Name": "Samsung"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
-    }
-  },
-  {
-    "Id": "60f78b2e9c4f4f001c2b3c6f",
-    "Name": "Pixel 6",
-    "Summary": "A powerful smartphone with advanced features.",
-    "Description": "The Pixel 6 features a powerful Google Tensor chip, improved cameras, and a stunning OLED display.",
-    "ImageFile": "images/products/pixel6.jpg",
-    "Price": 599.99,
-    "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c50",
-      "Name": "Google"
-    },
-    "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c51",
-      "Name": "Smartphone"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c70",
-    "Name": "Surface Laptop Go",
-    "Summary": "A lightweight laptop for everyday use.",
-    "Description": "The Surface Laptop Go features a high-resolution PixelSense display, powerful Intel Core i5 chip, and long battery life.",
-    "ImageFile": "images/products/surfacelaptopgo.jpg",
-    "Price": 549.99,
+    "Name": "iMac 24-inch 2023 Blue",
+    "Summary": "iMac 24-inch 2023 Blue.",
+    "Description": "iMac 24-inch 2023. Featuring the M1 chip, stunning Retina display, and a sleek design.",
+    "ImageFile": "images/products/imac24blue.jpg",
+    "Price": 1299,
     "Brands": {
-      "Id": "60f78b2e9c4f4f001c2b3c4f",
-      "Name": "Microsoft"
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Desktop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c71",
+    "Name": "iMac 24-inch 2023 Silver",
+    "Summary": "iMac 24-inch 2023 Silver.",
+    "Description": "iMac 24-inch 2023. Featuring the M1 chip, stunning Retina display, and a sleek design.",
+    "ImageFile": "images/products/imac24silver.jpg",
+    "Price": 1299,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Desktop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c72",
+    "Name": "iMac 24-inch 2023 Yellow",
+    "Summary": "iMac 24-inch 2023 Yellow.",
+    "Description": "iMac 24-inch 2023. Featuring the M1 chip, stunning Retina display, and a sleek design.",
+    "ImageFile": "images/products/imac24yellow.jpg",
+    "Price": 1299,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Desktop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c73",
+    "Name": "iMac 24-inch 2023 Pink",
+    "Summary": "iMac 24-inch 2023 Pink.",
+    "Description": "iMac 24-inch 2023. Featuring the M1 chip, stunning Retina display, and a sleek design.",
+    "ImageFile": "images/products/imac24pink.jpg",
+    "Price": 1299,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Desktop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c74",
+    "Name": "MacBook Air 13-inch 2023 Space Gray",
+    "Summary": "MacBook Air 13-inch 2023 Space Gray.",
+    "Description": "MacBook Air 13-inch 2023. Featuring the M2 chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookair13.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
     },
     "Types": {
       "Id": "60f78b2e9c4f4f001c2b3c52",
       "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c75",
+    "Name": "MacBook Air 13-inch 2023 Silver",
+    "Summary": "MacBook Air 13-inch 2023 Silver.",
+    "Description": "MacBook Air 13-inch 2023. Featuring the M2 chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookair13silver.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c76",
+    "Name": "MacBook Air 13-inch 2023 Gold",
+    "Summary": "MacBook Air 13-inch 2023 Gold.",
+    "Description": "MacBook Air 13-inch 2023. Featuring the M2 chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookair13gold.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c77",
+    "Name": "MacBook Air 13-inch 2023 Rose Gold",
+    "Summary": "MacBook Air 13-inch 2023 Rose Gold.",
+    "Description": "MacBook Air 13-inch 2023. Featuring the M2 chip, stunning Retina display, and all-day battery life.",
+    "ImageFile": "images/products/macbookair13rosegold.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c52",
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c91",
+    "Name": "iPad Pro M4 12.9-inch Space Gray",
+    "Summary": "iPad Pro M4 12.9-inch Space Gray.",
+    "Description": "iPad Pro M4 12.9-inch. Featuring the M4 chip, stunning Liquid Retina XDR display, and advanced camera system.",
+    "ImageFile": "images/products/ipadprom4_12.9_spacegray.jpg",
+    "Price": 1099,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c92",
+    "Name": "iPad Pro M4 11-inch Silver",
+    "Summary": "iPad Pro M4 11-inch Silver.",
+    "Description": "iPad Pro M4 11-inch. Featuring the M4 chip, stunning Liquid Retina display, and advanced camera system.",
+    "ImageFile": "images/products/ipadprom4_11_silver.jpg",
+    "Price": 799,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c93",
+    "Name": "iPad Air M2 10.9-inch Space Gray",
+    "Summary": "iPad Air M2 10.9-inch Space Gray.",
+    "Description": "iPad Air M2 10.9-inch. Featuring the M2 chip, stunning Liquid Retina display, and advanced camera system.",
+    "ImageFile": "images/products/ipadairm2_10.9_spacegray.jpg",
+    "Price": 599,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c94",
+    "Name": "iPad Air M2 10.9-inch Blue",
+    "Summary": "iPad Air M2 10.9-inch Blue.",
+    "Description": "iPad Air M2 10.9-inch. Featuring the M2 chip, stunning Liquid Retina display, and advanced camera system.",
+    "ImageFile": "images/products/ipadairm2_10.9_blue.jpg",
+    "Price": 599,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c95",
+    "Name": "iPad Mini 8.3-inch Space Gray",
+    "Summary": "iPad Mini 8.3-inch Space Gray.",
+    "Description": "iPad Mini 8.3-inch. Featuring the A15 Bionic chip, stunning Liquid Retina display, and advanced camera system.",
+    "ImageFile": "images/products/ipadmini_8.3_spacegray.jpg",
+    "Price": 499,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c96",
+    "Name": "iPad Mini 8.3-inch Starlight",
+    "Summary": "iPad Mini 8.3-inch Starlight.",
+    "Description": "iPad Mini 8.3-inch. Featuring the A15 Bionic chip, stunning Liquid Retina display, and advanced camera system.",
+    "ImageFile": "images/products/ipadmini_8.3_starlight.jpg",
+    "Price": 499,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4d",
+      "Name": "Apple"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c78",
+    "Name": "Galaxy S23",
+    "Summary": "Galaxy S23.",
+    "Description": "Galaxy S23. Featuring a stunning display, powerful processor, and advanced camera system.",
+    "ImageFile": "images/products/galaxys23.jpg",
+    "Price": 799,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c79",
+    "Name": "Galaxy S23 FE",
+    "Summary": "Galaxy S23 FE.",
+    "Description": "Galaxy S23 FE. Offering flagship features at an affordable price, with a powerful processor and advanced camera system.",
+    "ImageFile": "images/products/galaxys23fe.jpg",
+    "Price": 699,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c80",
+    "Name": "Galaxy S24",
+    "Summary": "Galaxy S24.",
+    "Description": "Galaxy S24. Featuring the latest technology, a stunning display, and an advanced camera system.",
+    "ImageFile": "images/products/galaxys24.jpg",
+    "Price": 899,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c81",
+    "Name": "Galaxy S24 FE",
+    "Summary": "Galaxy S24 FE.",
+    "Description": "Galaxy S24 FE. Offering flagship features at an affordable price, with a powerful processor and advanced camera system.",
+    "ImageFile": "images/products/galaxys24fe.jpg",
+    "Price": 799,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c82",
+    "Name": "Galaxy S24 Plus",
+    "Summary": "Galaxy S24 Plus.",
+    "Description": "Galaxy S24 Plus. Featuring a larger display, powerful processor, and advanced camera system.",
+    "ImageFile": "images/products/galaxys24plus.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c83",
+    "Name": "Galaxy S24 Ultra",
+    "Summary": "Galaxy S24 Ultra.",
+    "Description": "Galaxy S24 Ultra. Featuring the most advanced technology, a stunning display, and a professional-grade camera system.",
+    "ImageFile": "images/products/galaxys24ultra.jpg",
+    "Price": 1199,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c84",
+    "Name": "Galaxy Z Fold 5",
+    "Summary": "Galaxy Z Fold 5.",
+    "Description": "Galaxy Z Fold 5. The ultimate foldable smartphone with a large inner display and advanced multitasking capabilities.",
+    "ImageFile": "images/products/galaxyzfold5.jpg",
+    "Price": 1799,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c85",
+    "Name": "Galaxy Z Fold 6",
+    "Summary": "Galaxy Z Fold 6.",
+    "Description": "Galaxy Z Fold 6. The next generation of foldable smartphones with an even larger inner display and enhanced multitasking capabilities.",
+    "ImageFile": "images/products/galaxyzfold6.jpg",
+    "Price": 1899,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c86",
+    "Name": "Galaxy Z Flip 6",
+    "Summary": "Galaxy Z Flip 6.",
+    "Description": "Galaxy Z Flip 6. A stylish and compact foldable smartphone with a unique design and advanced features.",
+    "ImageFile": "images/products/galaxyzflip6.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c51",
+      "Name": "Smartphone"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c87",
+    "Name": "Samsung Galaxy Tab S10 Ultra",
+    "Summary": "Samsung Galaxy Tab S10 Ultra.",
+    "Description": "Samsung Galaxy Tab S10 Ultra. Featuring a stunning display, powerful processor, and advanced camera system.",
+    "ImageFile": "images/products/galaxytabs10ultra.jpg",
+    "Price": 1299,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c88",
+    "Name": "Samsung Galaxy Tab S10+",
+    "Summary": "Samsung Galaxy Tab S10+.",
+    "Description": "Samsung Galaxy Tab S10+. Featuring a large display, powerful processor, and advanced camera system.",
+    "ImageFile": "images/products/galaxytabs10plus.jpg",
+    "Price": 1099,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c89",
+    "Name": "Samsung Galaxy Tab S9 Ultra",
+    "Summary": "Samsung Galaxy Tab S9 Ultra.",
+    "Description": "Samsung Galaxy Tab S9 Ultra. Featuring the latest technology, a stunning display, and an advanced camera system.",
+    "ImageFile": "images/products/galaxytabs9ultra.jpg",
+    "Price": 1199,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
+    }
+  },
+  {
+    "Id": "60f78b2e9c4f4f001c2b3c90",
+    "Name": "Samsung Galaxy Tab S9+",
+    "Summary": "Samsung Galaxy Tab S9+.",
+    "Description": "Samsung Galaxy Tab S9+. Featuring a large display, powerful processor, and advanced camera system.",
+    "ImageFile": "images/products/galaxytabs9plus.jpg",
+    "Price": 999,
+    "Brands": {
+      "Id": "60f78b2e9c4f4f001c2b3c4e",
+      "Name": "Samsung"
+    },
+    "Types": {
+      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Name": "Tablet"
     }
   }
 ]

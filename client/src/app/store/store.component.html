@@ -35,7 +35,7 @@
                             : this.storeParams.pageNumber*this.storeParams.pageSize
                             }}
                         </strong> of <strong> {{this.totalCount}} </strong> Results</span>
-                        <span *ngIf="totalCount === 0">There are<strong>0</strong> results for this filter</span>
+                        <span *ngIf="totalCount === 0">There are <strong>0</strong> results for this filter</span>
                 </header>
                 <div class="form-inline mt-2">
                     <input (keyup.enter)="onSearch()" class="form-control mr-2" #search style="width:300px" placeholder="Search" type="text">
