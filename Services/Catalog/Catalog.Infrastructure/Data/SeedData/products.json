@@ -267,7 +267,7 @@
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Id": "60f74b239c5e4f701c2b3c53",
       "Name": "Desktop"
     }
   },
@@ -283,7 +283,7 @@
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Id": "60f74b239c5e4f701c2b3c53",
       "Name": "Desktop"
     }
   },
@@ -299,23 +299,23 @@
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Id": "60f74b239c5e4f701c2b3c53",
       "Name": "Desktop"
     }
   },
   {
     "Id": "60f78b2e9c4f4f001c2b3c73",
-    "Name": "iMac 24-inch 2023 Pink",
-    "Summary": "iMac 24-inch 2023 Pink.",
+    "Name": "iMac 24-inch 2023 Green",
+    "Summary": "iMac 24-inch 2023 Green.",
     "Description": "iMac 24-inch 2023. Featuring the M1 chip, stunning Retina display, and a sleek design.",
-    "ImageFile": "images/products/imac24pink.jpg",
+    "ImageFile": "images/products/imac24green.jpg",
     "Price": 1299,
     "Brands": {
       "Id": "60f78b2e9c4f4f001c2b3c4d",
       "Name": "Apple"
     },
     "Types": {
-      "Id": "60f78b2e9c4f4f001c2b3c53",
+      "Id": "60f74b239c5e4f701c2b3c53",
       "Name": "Desktop"
     }
   },

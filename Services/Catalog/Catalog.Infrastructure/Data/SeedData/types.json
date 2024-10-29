@@ -10,5 +10,9 @@
   {
     "Id": "60f78b2e9c4f4f001c2b3c53",
     "Name": "Tablet"
+  },
+  {
+    "Id": "60f74b239c5e4f701c2b3c53",
+    "Name": "Desktop"
   }
 ]
